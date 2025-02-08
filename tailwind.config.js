@@ -1,15 +1,5 @@
-/** @type {import('tailwindcss').Config} */
-const plugin = require("tailwindcss/plugin");
-
 module.exports = {
-    content: [
-        "./components/**/*.{js,vue,ts}",
-        "./layouts/**/*.vue",
-        "./pages/**/*.vue",
-        "./plugins/**/*.{js,ts}",
-        "./app.vue",
-        "./error.vue",
-      ],
+    content: ["./components/**/*.{js,vue,ts}", "./layouts/**/*.vue", "./pages/**/*.vue", "./plugins/**/*.{js,ts}", "./app.vue", "./error.vue"],
     safelist: ["rotate-180", "translate-y-0", "translate-y-[100%]", "z-10", "scale-75", "navbar-active"],
     presets: [],
     darkMode: "class", // or 'media' or 'class'
@@ -936,8 +926,8 @@ module.exports = {
     },
     variantOrder: ["first", "last", "odd", "even", "visited", "checked", "empty", "read-only", "group-hover", "group-focus", "focus-within", "hover", "focus", "focus-visible", "active", "disabled"],
     plugins: [
-        plugin(function ({ addVariant }) {
+        function ({ addVariant }) {
             addVariant("children", "&>*");
-        }),
+        },
     ],
 };

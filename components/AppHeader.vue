@@ -1,3 +1,30 @@
+<script setup lang="ts">
+
+const setupNavbar = () => {
+    const hamburger = document.querySelector("#hamburger");
+    const navbar = document.querySelector("#navbar");
+
+        if(!navbar || !hamburger) {
+            return
+        }
+
+    const links = navbar.querySelectorAll("a");
+
+    hamburger.addEventListener("click", () => {
+        navbar.classList.toggle("navbar-active");
+    });
+
+    links.forEach((link) => {
+        link.addEventListener("click", () => {
+            navbar.classList.toggle("navbar-active");
+        });
+    });
+}
+
+onMounted(() => {
+    setupNavbar()
+})
+</script>
 <template>
 	<header>
 		<nav
