@@ -5,17 +5,18 @@
 				<h1
 					class="text-center text-5xl font-bold text-blue-900 dark:text-white sm:text-6xl lg:text-left lg:text-7xl"
 				>
-					Bowling of Tomorrow
+					Go modern with us
 					<span class="relative">
 						<img href="./../assets/design.svg" />
 						<span
 							class="relative bg-gradient-to-r from-primary to-secondaryLight bg-clip-text text-transparent dark:from-primaryLight dark:to-secondaryLight"
 						>
-							Uptrendis
+							Up-trend
 						</span>
 					</span>
 				</h1>
 
+				// https://player.vimeo.com/video/999438269?background=1
 				<div class="relative items-center gap-12 lg:flex">
 					<div
 						class="text-center sm:mx-auto sm:w-11/12 md:mt-12 md:w-4/5 lg:mr-auto lg:mt-0 lg:w-6/12 lg:text-left"

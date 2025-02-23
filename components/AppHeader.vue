@@ -40,7 +40,7 @@ onMounted(() => {
 							aria-label="ampire logo"
 							class="nav-link flex items-center space-x-2 text-white"
 						>
-							Logo
+						<img class="h-[100px] w-auto" src="/assets/logo.png" />
 						</a>
 
 						<button

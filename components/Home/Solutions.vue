@@ -99,9 +99,21 @@ onMounted(() => {
 						title="tab item"
 						class="tab relative block rounded-full px-4 py-2.5 hover:text-primary dark:hover:text-primaryLight"
 					>
-						<span class="m-auto block w-max text-sm font-medium tracking-wider"
-							>First Tab</span
-						>
+						<span class="m-auto block w-max text-sm font-medium tracking-wider">
+							Scoring
+						</span>
+					</button>
+					<button
+						role="tab"
+						aria-selected="true"
+						aria-controls="panel-0"
+						tabindex="0"
+						title="tab item"
+						class="tab relative block rounded-full px-4 py-2.5 hover:text-primary dark:hover:text-primaryLight"
+					>
+						<span class="m-auto block w-max text-sm font-medium tracking-wider">
+							Footbowl
+						</span>
 					</button>
 					<button
 						role="tab"
@@ -111,9 +123,9 @@ onMounted(() => {
 						title="tab item"
 						class="tab relative block rounded-full px-4 py-2.5 hover:text-primary dark:hover:text-primaryLight"
 					>
-						<span class="m-auto block w-max text-sm font-medium tracking-wider"
-							>Second Tab</span
-						>
+						<span class="m-auto block w-max text-sm font-medium tracking-wider">
+							Ledwall
+						</span>
 					</button>
 					<button
 						role="tab"
@@ -123,9 +135,9 @@ onMounted(() => {
 						title="tab item"
 						class="tab relative block rounded-full px-4 py-2.5 hover:text-primary dark:hover:text-primaryLight"
 					>
-						<span class="m-auto block w-max text-sm font-medium tracking-wider"
-							>Third Tab</span
-						>
+						<span class="m-auto block w-max text-sm font-medium tracking-wider">
+							Forniture
+						</span>
 					</button>
 				</div>
 			</div>
