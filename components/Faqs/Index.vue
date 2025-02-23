@@ -36,6 +36,7 @@ const setupFaq = () => {
     }
 };
 
+// Wait for mounted component, in order to setup faq javascript
 onMounted(() => {
     setupFaq();
 });
